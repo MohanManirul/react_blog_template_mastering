@@ -1,0 +1,40 @@
+.header{
+    text-align: center;
+}
+.headerDiv{
+    background-color: cadetblue;
+
+}
+
+.todo-left{
+    border: 1px solid blue;
+
+}
+.todo-form{
+    border: 1px solid red;
+}
+.cardPadding{
+    padding: 7px;
+    display: block;
+}
+
+.listDisplay{
+    display: inline-flex;
+    padding: 5px;
+    margin: 10px;
+}
+.list{
+    list-style: none;
+    padding: 5px;  
+    list-style-type: none; 
+}
+ul li{
+    list-style-type: none;
+
+  }
+
+  .imgWidth{
+    max-width: 100%;
+    height: auto;
+  }
+  
