@@ -11,7 +11,11 @@ const Layout = (props) => {
                 <li  className="list">
                     <Link to={'/by-category'}>CategoryItem</Link>
                 </li>
-                <p>Git Link : https://github.com/MohanManirul/react_blog_template_mastering</p>
+                <li  className="list">
+
+                <Link className="gitLink" to={'https://github.com/MohanManirul/react_blog_template_mastering'}>Git Link</Link>
+                </li>
+                
             </ul>
             {props.children}
         </div>

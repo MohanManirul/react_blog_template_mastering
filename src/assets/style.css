@@ -37,4 +37,7 @@ ul li{
     max-width: 100%;
     height: auto;
   }
+  .gitLink{
+    float: right;
+  }
   
