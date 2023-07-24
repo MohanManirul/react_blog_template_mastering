@@ -11,6 +11,7 @@ const Layout = (props) => {
                 <li  className="list">
                     <Link to={'/by-category'}>CategoryItem</Link>
                 </li>
+                <p>Git Link : https://github.com/MohanManirul/react_blog_template_mastering</p>
             </ul>
             {props.children}
         </div>
